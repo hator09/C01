@@ -1,10 +1,10 @@
-NAME        = zombie
+NAME        = unnecessary_violence
 
 CXX         = c++
 CXXFLAGS    = -Wall -Wextra -Werror -std=c++98
 
-SRCS        = main.cpp Zombie.cpp zombieHorde.cpp
-HEADERS		= Zombie.hpp
+SRCS        = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+HEADERS		= HumanA.hpp HumanB.hpp Weapon.hpp
 OBJS        = $(SRCS:.cpp=.o)
 
 all: $(NAME)
